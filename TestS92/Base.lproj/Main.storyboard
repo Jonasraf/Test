@@ -1,24 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="ipad10_9rounded" orientation="landscape" layout="fullscreen" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17126"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="TestS92" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="1180" height="820"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RaZ-sU-cWX" customClass="PBHandle" customModule="TestS92" customModuleProvider="target">
+                                <rect key="frame" x="50" y="50" width="350" height="250"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="350" id="Fon-VE-yn6"/>
+                                    <constraint firstAttribute="height" constant="250" id="aAE-K9-9lU"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dbK-rA-Vym" customClass="Advisories" customModule="TestS92" customModuleProvider="target">
+                                <rect key="frame" x="830" y="50" width="300" height="200"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="300" id="8z4-yu-TBV"/>
+                                    <constraint firstAttribute="height" constant="200" id="ecs-X1-E3e"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="w5B-cz-mTF" customClass="Brakes" customModule="TestS92" customModuleProvider="target">
+                                <rect key="frame" x="415" y="187.5" width="350" height="425"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="RaZ-sU-cWX" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="1yl-iG-BFC"/>
+                            <constraint firstItem="dbK-rA-Vym" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="50" id="51F-b7-4QP"/>
+                            <constraint firstItem="w5B-cz-mTF" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="187.5" id="75t-ZR-VUD"/>
+                            <constraint firstItem="RaZ-sU-cWX" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="50" id="NE9-cU-5oh"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="dbK-rA-Vym" secondAttribute="trailing" constant="50" id="Qrf-SQ-l3Z"/>
+                            <constraint firstItem="w5B-cz-mTF" firstAttribute="leading" secondItem="RaZ-sU-cWX" secondAttribute="trailing" constant="15" id="tKn-5f-zhB"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="w5B-cz-mTF" secondAttribute="bottom" constant="187.5" id="w0h-N2-pa4"/>
+                            <constraint firstItem="dbK-rA-Vym" firstAttribute="leading" secondItem="w5B-cz-mTF" secondAttribute="trailing" constant="65" id="x8a-Rw-t9U"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="advisoriesView" destination="dbK-rA-Vym" id="aUp-YW-jOg"/>
+                        <outlet property="brake" destination="w5B-cz-mTF" id="uIK-ZR-jx3"/>
+                        <outlet property="handleView" destination="RaZ-sU-cWX" id="62J-r5-mYa"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="-145.42372881355934" y="71.707317073170728"/>
         </scene>
     </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
 </document>

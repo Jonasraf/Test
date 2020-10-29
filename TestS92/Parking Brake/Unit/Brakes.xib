@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17126"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="Brakes" customModule="TestS92" customModuleProvider="target">
+            <connections>
+                <outlet property="containerView" destination="iN0-l3-epB" id="4uf-cN-d8a"/>
+                <outlet property="copilot_pedals_imageView" destination="xXD-3b-qqz" id="s8n-55-Lb6"/>
+                <outlet property="left_brake_imageView" destination="YQq-sw-ilq" id="Xr9-FI-PV9"/>
+                <outlet property="left_slave_valve_imageView" destination="BW1-5D-lHe" id="4Jc-Am-zVl"/>
+                <outlet property="parking_brake_valve_imageView" destination="w95-1F-oZO" id="9gH-VO-RAW"/>
+                <outlet property="pilot_pedals_imageView" destination="dBg-p0-8fC" id="ZA3-ZB-B2a"/>
+                <outlet property="right_brake_imageView" destination="iZL-Pg-1Ps" id="3aZ-4W-h2G"/>
+                <outlet property="right_slave_valve_imageView" destination="9u3-0D-c99" id="7Mj-gG-tls"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="700" height="850"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="millsign.square.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="YQq-sw-ilq">
+                    <rect key="frame" x="50" y="667.5" width="150" height="87.5"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="150" id="2cX-oB-n83"/>
+                        <constraint firstAttribute="height" constant="90" id="I5F-zP-paS"/>
+                    </constraints>
+                </imageView>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="millsign.square.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="BW1-5D-lHe">
+                    <rect key="frame" x="305" y="361" width="90" height="87.5"/>
+                </imageView>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="millsign.square.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="9u3-0D-c99">
+                    <rect key="frame" x="305" y="214" width="90" height="87.5"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="90" id="MS1-Zj-Ocn"/>
+                        <constraint firstAttribute="height" constant="90" id="ids-9a-i2Y"/>
+                    </constraints>
+                </imageView>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="millsign.square.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="w95-1F-oZO">
+                    <rect key="frame" x="230" y="491" width="240" height="127.5"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="130" id="20Q-l5-VNP"/>
+                        <constraint firstAttribute="width" constant="240" id="CXv-0o-DDx"/>
+                    </constraints>
+                </imageView>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="millsign.square.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="xXD-3b-qqz">
+                    <rect key="frame" x="144" y="79" width="150" height="87.5"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="90" id="LJA-us-oMr"/>
+                        <constraint firstAttribute="width" constant="150" id="sSN-rQ-EpX"/>
+                    </constraints>
+                </imageView>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="millsign.square.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="dBg-p0-8fC">
+                    <rect key="frame" x="410" y="79" width="150" height="87.5"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="90" id="Yih-HL-JyD"/>
+                        <constraint firstAttribute="width" constant="150" id="tU4-XY-Xx4"/>
+                    </constraints>
+                </imageView>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="millsign.square.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="iZL-Pg-1Ps">
+                    <rect key="frame" x="500" y="667" width="150" height="87.5"/>
+                </imageView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="w95-1F-oZO" firstAttribute="top" secondItem="BW1-5D-lHe" secondAttribute="bottom" constant="40" id="3ly-f7-CdT"/>
+                <constraint firstItem="iZL-Pg-1Ps" firstAttribute="leading" secondItem="w95-1F-oZO" secondAttribute="trailing" constant="30" id="APi-Pi-70y"/>
+                <constraint firstItem="dBg-p0-8fC" firstAttribute="leading" secondItem="9u3-0D-c99" secondAttribute="trailing" constant="15" id="AdJ-u6-vey"/>
+                <constraint firstItem="iZL-Pg-1Ps" firstAttribute="top" secondItem="w95-1F-oZO" secondAttribute="bottom" constant="46" id="BDq-oo-syG"/>
+                <constraint firstItem="iZL-Pg-1Ps" firstAttribute="height" secondItem="YQq-sw-ilq" secondAttribute="height" id="F0k-px-34p"/>
+                <constraint firstItem="9u3-0D-c99" firstAttribute="centerX" secondItem="vUN-kp-3ea" secondAttribute="centerX" id="JE2-Wi-9Pz"/>
+                <constraint firstItem="w95-1F-oZO" firstAttribute="top" secondItem="BW1-5D-lHe" secondAttribute="bottom" constant="40" id="K3e-eN-bFL"/>
+                <constraint firstItem="w95-1F-oZO" firstAttribute="centerX" secondItem="vUN-kp-3ea" secondAttribute="centerX" id="LEN-Lf-oQD"/>
+                <constraint firstItem="BW1-5D-lHe" firstAttribute="width" secondItem="9u3-0D-c99" secondAttribute="width" id="PtS-rN-cuJ"/>
+                <constraint firstItem="iZL-Pg-1Ps" firstAttribute="width" secondItem="YQq-sw-ilq" secondAttribute="width" id="ala-sF-z6r"/>
+                <constraint firstItem="9u3-0D-c99" firstAttribute="leading" secondItem="xXD-3b-qqz" secondAttribute="trailing" constant="11" id="bXi-LE-dHb"/>
+                <constraint firstItem="YQq-sw-ilq" firstAttribute="top" secondItem="w95-1F-oZO" secondAttribute="bottom" constant="46.5" id="fBJ-y7-7F3"/>
+                <constraint firstItem="BW1-5D-lHe" firstAttribute="top" secondItem="9u3-0D-c99" secondAttribute="bottom" constant="57" id="jFQ-HQ-IB9"/>
+                <constraint firstItem="w95-1F-oZO" firstAttribute="leading" secondItem="YQq-sw-ilq" secondAttribute="trailing" constant="30" id="n3h-bN-PVD"/>
+                <constraint firstItem="BW1-5D-lHe" firstAttribute="centerX" secondItem="vUN-kp-3ea" secondAttribute="centerX" id="oja-dH-BdJ"/>
+                <constraint firstItem="dBg-p0-8fC" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="34" id="sK1-lP-dZr"/>
+                <constraint firstItem="xXD-3b-qqz" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="34" id="svL-0b-epQ"/>
+                <constraint firstItem="9u3-0D-c99" firstAttribute="top" secondItem="xXD-3b-qqz" secondAttribute="bottom" constant="45" id="wR1-hm-ZAj"/>
+                <constraint firstItem="BW1-5D-lHe" firstAttribute="height" secondItem="9u3-0D-c99" secondAttribute="height" id="xsL-O5-mOe"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="131.8840579710145" y="60.9375"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="millsign.square.fill" catalog="system" width="128" height="114"/>
+    </resources>
+</document>

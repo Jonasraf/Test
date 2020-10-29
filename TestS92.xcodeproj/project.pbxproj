@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0764373B254A44A3000FA669 /* Brakes.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0764373A254A44A3000FA669 /* Brakes.xib */; };
+		07643740254A44AF000FA669 /* Brakes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0764373F254A44AF000FA669 /* Brakes.swift */; };
 		0772026F2547C189006C692F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0772026E2547C189006C692F /* AppDelegate.swift */; };
 		077202712547C189006C692F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077202702547C189006C692F /* SceneDelegate.swift */; };
 		077202732547C189006C692F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077202722547C189006C692F /* ViewController.swift */; };
@@ -15,6 +17,12 @@
 		0772027B2547C18C006C692F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 077202792547C18C006C692F /* LaunchScreen.storyboard */; };
 		077202862547C18C006C692F /* TestS92Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077202852547C18C006C692F /* TestS92Tests.swift */; };
 		077202912547C18C006C692F /* TestS92UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077202902547C18C006C692F /* TestS92UITests.swift */; };
+		07E9A0412547D9CD004CC6A2 /* GlobalParkingBrake.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E9A0402547D9CD004CC6A2 /* GlobalParkingBrake.swift */; };
+		07F122E72547DD9A00A2C52F /* PBHandle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F122E62547DD9A00A2C52F /* PBHandle.swift */; };
+		07F122EC2547DDA700A2C52F /* PBHandle.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07F122EB2547DDA700A2C52F /* PBHandle.xib */; };
+		07F122F22547E51600A2C52F /* Advisories.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07F122F12547E51600A2C52F /* Advisories.xib */; };
+		07F122F72547E52A00A2C52F /* Advisories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F122F62547E52A00A2C52F /* Advisories.swift */; };
+		07F123062547E77A00A2C52F /* AdvisoriesStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F123052547E77A00A2C52F /* AdvisoriesStruct.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +43,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0764373A254A44A3000FA669 /* Brakes.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Brakes.xib; sourceTree = "<group>"; };
+		0764373F254A44AF000FA669 /* Brakes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Brakes.swift; sourceTree = "<group>"; };
 		0772026B2547C188006C692F /* TestS92.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestS92.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0772026E2547C189006C692F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		077202702547C189006C692F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +59,12 @@
 		0772028C2547C18C006C692F /* TestS92UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestS92UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		077202902547C18C006C692F /* TestS92UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestS92UITests.swift; sourceTree = "<group>"; };
 		077202922547C18C006C692F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07E9A0402547D9CD004CC6A2 /* GlobalParkingBrake.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalParkingBrake.swift; sourceTree = "<group>"; };
+		07F122E62547DD9A00A2C52F /* PBHandle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PBHandle.swift; sourceTree = "<group>"; };
+		07F122EB2547DDA700A2C52F /* PBHandle.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PBHandle.xib; sourceTree = "<group>"; };
+		07F122F12547E51600A2C52F /* Advisories.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Advisories.xib; sourceTree = "<group>"; };
+		07F122F62547E52A00A2C52F /* Advisories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Advisories.swift; sourceTree = "<group>"; };
+		07F123052547E77A00A2C52F /* AdvisoriesStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvisoriesStruct.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +115,8 @@
 		0772026D2547C188006C692F /* TestS92 */ = {
 			isa = PBXGroup;
 			children = (
+				07F122F02547E4DD00A2C52F /* Advisory */,
+				07E9A03A2547D979004CC6A2 /* Parking Brake */,
 				0772026E2547C189006C692F /* AppDelegate.swift */,
 				077202702547C189006C692F /* SceneDelegate.swift */,
 				077202722547C189006C692F /* ViewController.swift */,
@@ -126,6 +144,44 @@
 				077202922547C18C006C692F /* Info.plist */,
 			);
 			path = TestS92UITests;
+			sourceTree = "<group>";
+		};
+		07E9A03A2547D979004CC6A2 /* Parking Brake */ = {
+			isa = PBXGroup;
+			children = (
+				07E9A0402547D9CD004CC6A2 /* GlobalParkingBrake.swift */,
+				07E9A03F2547D99D004CC6A2 /* Unit */,
+				07E9A03E2547D98C004CC6A2 /* Handle */,
+			);
+			path = "Parking Brake";
+			sourceTree = "<group>";
+		};
+		07E9A03E2547D98C004CC6A2 /* Handle */ = {
+			isa = PBXGroup;
+			children = (
+				07F122E62547DD9A00A2C52F /* PBHandle.swift */,
+				07F122EB2547DDA700A2C52F /* PBHandle.xib */,
+			);
+			path = Handle;
+			sourceTree = "<group>";
+		};
+		07E9A03F2547D99D004CC6A2 /* Unit */ = {
+			isa = PBXGroup;
+			children = (
+				0764373A254A44A3000FA669 /* Brakes.xib */,
+				0764373F254A44AF000FA669 /* Brakes.swift */,
+			);
+			path = Unit;
+			sourceTree = "<group>";
+		};
+		07F122F02547E4DD00A2C52F /* Advisory */ = {
+			isa = PBXGroup;
+			children = (
+				07F122F12547E51600A2C52F /* Advisories.xib */,
+				07F122F62547E52A00A2C52F /* Advisories.swift */,
+				07F123052547E77A00A2C52F /* AdvisoriesStruct.swift */,
+			);
+			path = Advisory;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,6 +290,9 @@
 				0772027B2547C18C006C692F /* LaunchScreen.storyboard in Resources */,
 				077202782547C18C006C692F /* Assets.xcassets in Resources */,
 				077202762547C189006C692F /* Main.storyboard in Resources */,
+				07F122F22547E51600A2C52F /* Advisories.xib in Resources */,
+				07F122EC2547DDA700A2C52F /* PBHandle.xib in Resources */,
+				0764373B254A44A3000FA669 /* Brakes.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +318,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				077202732547C189006C692F /* ViewController.swift in Sources */,
+				07F122E72547DD9A00A2C52F /* PBHandle.swift in Sources */,
+				07F122F72547E52A00A2C52F /* Advisories.swift in Sources */,
+				07F123062547E77A00A2C52F /* AdvisoriesStruct.swift in Sources */,
+				07E9A0412547D9CD004CC6A2 /* GlobalParkingBrake.swift in Sources */,
 				0772026F2547C189006C692F /* AppDelegate.swift in Sources */,
 				077202712547C189006C692F /* SceneDelegate.swift in Sources */,
+				07643740254A44AF000FA669 /* Brakes.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -446,7 +510,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.geoffsaid.TestS92;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -465,7 +529,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.geoffsaid.TestS92;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
